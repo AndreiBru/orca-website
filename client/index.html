@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html ng-app="meetupApp">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/foundation.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<!-- Persistent header view -->
+
+
+	<div class="row main-container">
+		<div class="header-container">
+			<div class="left-header small-5 columns">a</div>
+			<div class="right-header small-7 columns">a</div>
+		</div>
+
+		<div class="body-container small-12 columns">
+			<div class="slider">
+				
+			</div>
+
+			<div class="promo-container">
+				<div class="promo-tile tile-1 small-4 columns">
+					<div class="inner-tile"></div>
+				</div>
+				<div class="promo-tile tile-2 small-4 columns">
+					<div class="inner-tile"></div>
+				</div>
+				<div class="promo-tile tile-3 small-4 columns">
+					<div class="inner-tile"></div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+
+
+	<!-- Dynamic views -->
+
+	<div ng-view=""></div>
+
+	<!-- Imports -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-resource.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-route.min.js"></script>
+	<script src="js/third-party/modernizr.js"></script>
+	<script src="js/third-party/jquery.js"></script>
+	<script src="js/third-party/foundation.js"></script>
+	<script>
+		$(document).foundation();
+	</script>
+
+
+
+	<script src="/js/app.js"></script>
+	<script src="/js/controllers/meetups-controller.js"></script>
+</body>
+</html>

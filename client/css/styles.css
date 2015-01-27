@@ -1,0 +1,51 @@
+.main-container {
+	background-color: deepskyblue;
+	width: 100%;
+}
+
+.header-container {
+	margin-top: 50px;
+	height: 50px;
+}
+
+.left-header {
+	background-color: tomato;
+	height: 100%;
+}
+
+.right-header {
+	background-color: darkorange;
+	height: 100%;
+}
+
+.slider {
+	height: 350px;
+}
+
+.promo-container {
+
+}
+
+.inner-tile {
+	height: 100%;
+	width: 100%;
+	background-color: mediumpurple;
+}
+
+.tile-1 {
+	height: 300px;
+	padding: 20px;
+	background-color: gold;
+}
+
+.tile-2 {
+	height: 300px;
+	padding: 20px;
+	background-color: lightgreen;
+}
+
+.tile-3 {
+	height: 300px;
+	padding: 20px;
+	background-color: lightsalmon;
+}
