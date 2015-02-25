@@ -1156,7 +1156,13 @@ select {
     .inline-list > li > * {
       display: block; }
 
-button, .button {
+
+// AM COMENTAT IO 
+
+
+
+
+/*button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
@@ -1332,7 +1338,7 @@ button, .button {
       button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .button.disabled.info:focus, .button[disabled].info:hover, .button[disabled].info:focus {
         color: #FFFFFF; }
       button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .button.disabled.info:focus, .button[disabled].info:hover, .button[disabled].info:focus {
-        background-color: #a0d3e8; }
+        background-color: #a0d3e8; }*/
 
 button::-moz-focus-inner {
   border: 0;

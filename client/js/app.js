@@ -4,7 +4,20 @@ app.config(['$routeProvider', function($routeProvider) {
 
 	$routeProvider
 	.when('/', {
-		templateUrl: 'home'
+		templateUrl: 'home',
+		controller: 'TestCtrl'
+	})
+	.when('/despre', {
+		templateUrl: 'despre'
+	})
+	.when('/admitere', {
+		templateUrl: 'admitere'
+	})
+	.when('/simulare', {
+		templateUrl: 'simulare'
+	})
+	.when('/contact', {
+		templateUrl: 'contact'
 	})
 	.otherwise({
 		redirectTo: '/'
@@ -12,5 +25,10 @@ app.config(['$routeProvider', function($routeProvider) {
 }]);
 
 app.controller('TestCtrl', function($scope) {
-	console.log('from controller');
+	$(function() {
+	    $('.banner').unslider({
+	    	speed: 500,
+	    	delay: 7000
+	    });
+	});
 });
